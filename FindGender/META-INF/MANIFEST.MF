@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FindGender
+Bundle-SymbolicName: FindGender
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: findgender.FindGenderActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: FindGender
+Import-Package: findgenderservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: findgender
